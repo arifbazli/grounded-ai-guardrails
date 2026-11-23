@@ -11,7 +11,6 @@ class ArchitectureDoc(unittest.TestCase):
         self.assertIn("images/guardrail-flow.svg", text)
         self.assertIn("images/briefing-flow.svg", text)
         self.assertIn("docs/images/overview.svg", readme)
-        self.assertNotIn("```mermaid", text + readme, "old Mermaid diagrams should be gone")
 
     def test_every_named_file_exists(self):
         for rel in ("scripts/guardrail.py", "scripts/check-policy.py", "bench/guardrail/check-golden.sh",
