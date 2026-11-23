@@ -1,6 +1,4 @@
 extends: default
-ignore: |
-  examples/
 rules:
   line-length: disable
   document-start: disable
