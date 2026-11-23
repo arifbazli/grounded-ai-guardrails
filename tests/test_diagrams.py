@@ -49,17 +49,17 @@ class DiagramFiles(unittest.TestCase):
             self.assertNotIn("https://", check)
 
     def test_overview_labels(self):
-        self.labels("overview.svg", ("select-controls.py", "SPECIALIST_MODEL", "JUDGE_MODEL",
-                                     "policy.json", "grounded", "catalog-default", "excluded"))
+        self.labels("overview.svg", ("gen-configs.py", "guardrail.py", "run.sh", "JUDGE_MODEL",
+                                     "Verify", "Policy folder", "Briefing"))
 
     def test_guardrail_labels(self):
         self.labels("guardrail-flow.svg", ("select-controls.py", "SPECIALIST_MODEL", "JUDGE_MODEL",
                                            "REVIEWER_MODEL", "check-policy.py", "policy.json",
-                                           "exceptions.md", "Bedrock", "NeMo"))
+                                           "VERIFY", "Bedrock", "NeMo"))
 
     def test_briefing_labels(self):
         self.labels("briefing-flow.svg", ("run.sh", "RESEARCH_MODEL", "JUDGE_MODEL", "WRITER_MODEL",
-                                          "check-briefing.sh"))
+                                          "check-briefing.sh", "VERIFY"))
 
     def test_regeneration_is_deterministic(self):
         before = {name: hashlib.sha256(self.read(name)).digest() for name in SVG_FILES}
