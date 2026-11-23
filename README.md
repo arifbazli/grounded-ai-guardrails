@@ -22,14 +22,6 @@ scripts/run.sh "Why migrate from Prisma Cloud to Cortex Cloud?"                 
 
 Results land in `outputs/`: `policy.json`, `tests.jsonl`, `exceptions.md`, `evidence.json`, Bedrock and NeMo drafts, or a cited briefing.
 
-## Workflows
-
-| Guardrail policy generator | Docs briefing |
-|---|---|
-| ![Guardrail policy generator](docs/images/guardrail-flow.svg) | ![Docs briefing](docs/images/briefing-flow.svg) |
-
-Each control ends as `grounded`, `catalog-default` or `excluded`. Across 12 recorded runs, 3 to 12 controls per profile were grounded; output is advisory and needs human review.
-
 ## More
 
 [Guardrail generator](docs/guardrail-generator.md) · [Docs briefing](docs/docs-briefing.md) · [Settings](docs/settings.md) · [Architecture](docs/architecture.md)
