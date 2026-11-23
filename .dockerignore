@@ -4,7 +4,6 @@
 outputs/
 logs/
 fetched/
-examples/
 docs/
 tests/
 **/__pycache__
