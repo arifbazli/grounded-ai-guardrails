@@ -1,89 +1,94 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 430" width="1000" height="430" role="img">
-  <title>From app profile to a grounded policy</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" role="img">
+  <title>How the repository works</title>
   <defs>
-    <radialGradient id="glow" cx="12%" cy="0%" r="90%">
-      <stop offset="0%" stop-color="#312e81" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#0b1020" stop-opacity="0"/>
-    </radialGradient>
-    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
-      <path d="M 0 1 L 9 5 L 0 9 z" fill="#64748b"/>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#475569"/>
     </marker>
   </defs>
-  <rect x="0" y="0" width="1000" height="430" fill="#0b1020"/>
-  <rect x="0" y="0" width="1000" height="430" fill="url(#glow)"/>
-  <text x="40" y="46" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#f1f5f9">From app profile to a grounded policy</text>
-  <text x="40" y="68" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#94a3b8">Models propose. Scripts and a second model verify. Nothing unverified is shown as vendor-backed.</text>
-  <rect x="50" y="96" width="156" height="124" rx="14" ry="14" fill="#131c3a" stroke="#94a3b8" stroke-opacity="0.65" stroke-width="1.4"/>
-  <rect x="64" y="96" width="128" height="3" rx="1.5" ry="1.5" fill="#94a3b8"/>
-  <circle cx="74" cy="123" r="11" fill="#94a3b8"/>
-  <text x="74" y="127.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#0b1020">1</text>
-  <rect x="155" y="113" width="39" height="19" rx="9.5" ry="9.5" fill="#94a3b8" fill-opacity="0.16"/>
-  <text x="174.5" y="126" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" letter-spacing="0.6" fill="#94a3b8">DATA</text>
-  <text x="66" y="158" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#f1f5f9">App profile</text>
-  <text x="66" y="178" font-family="Consolas, Menlo, monospace" font-size="11" fill="#94a3b8">sanitized JSON</text>
-  <text x="66" y="194" font-family="Consolas, Menlo, monospace" font-size="11" fill="#94a3b8">no secrets</text>
-  <rect x="236" y="96" width="156" height="124" rx="14" ry="14" fill="#131c3a" stroke="#22d3ee" stroke-opacity="0.65" stroke-width="1.4"/>
-  <rect x="250" y="96" width="128" height="3" rx="1.5" ry="1.5" fill="#22d3ee"/>
-  <circle cx="260" cy="123" r="11" fill="#22d3ee"/>
-  <text x="260" y="127.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#0b1020">2</text>
-  <rect x="328" y="113" width="52" height="19" rx="9.5" ry="9.5" fill="#22d3ee" fill-opacity="0.16"/>
-  <text x="354.0" y="126" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" letter-spacing="0.6" fill="#22d3ee">SCRIPT</text>
-  <text x="252" y="158" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#f1f5f9">Select controls</text>
-  <text x="252" y="178" font-family="Consolas, Menlo, monospace" font-size="11" fill="#94a3b8">select-controls.py</text>
-  <text x="252" y="194" font-family="Consolas, Menlo, monospace" font-size="11" fill="#94a3b8">70-control catalog</text>
-  <rect x="422" y="96" width="156" height="124" rx="14" ry="14" fill="#131c3a" stroke="#fbbf24" stroke-opacity="0.65" stroke-width="1.4"/>
-  <rect x="436" y="96" width="128" height="3" rx="1.5" ry="1.5" fill="#fbbf24"/>
-  <circle cx="446" cy="123" r="11" fill="#fbbf24"/>
-  <text x="446" y="127.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#0b1020">3</text>
-  <rect x="495" y="113" width="71" height="19" rx="9.5" ry="9.5" fill="#fbbf24" fill-opacity="0.16"/>
-  <text x="530.5" y="126" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" letter-spacing="0.6" fill="#fbbf24">CLOUD LLM</text>
-  <text x="438" y="158" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#f1f5f9">Propose values</text>
-  <text x="438" y="178" font-family="Consolas, Menlo, monospace" font-size="11" fill="#94a3b8">7 specialists</text>
-  <text x="438" y="194" font-family="Consolas, Menlo, monospace" font-size="11" fill="#94a3b8">SPECIALIST_MODEL</text>
-  <rect x="608" y="96" width="156" height="124" rx="14" ry="14" fill="#131c3a" stroke="#34d399" stroke-opacity="0.65" stroke-width="1.4"/>
-  <rect x="622" y="96" width="128" height="3" rx="1.5" ry="1.5" fill="#34d399"/>
-  <circle cx="632" cy="123" r="11" fill="#34d399"/>
-  <text x="632" y="127.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#0b1020">4</text>
-  <rect x="662" y="113" width="90" height="19" rx="9.5" ry="9.5" fill="#34d399" fill-opacity="0.16"/>
-  <text x="707.0" y="126" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" letter-spacing="0.6" fill="#34d399">SCRIPT + LLM</text>
-  <text x="624" y="158" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#f1f5f9">Verify</text>
-  <text x="624" y="178" font-family="Consolas, Menlo, monospace" font-size="11" fill="#94a3b8">value check</text>
-  <text x="624" y="194" font-family="Consolas, Menlo, monospace" font-size="11" fill="#94a3b8">quote on the page</text>
-  <text x="624" y="210" font-family="Consolas, Menlo, monospace" font-size="11" fill="#94a3b8">JUDGE_MODEL</text>
-  <rect x="794" y="96" width="156" height="124" rx="14" ry="14" fill="#131c3a" stroke="#94a3b8" stroke-opacity="0.65" stroke-width="1.4"/>
-  <rect x="808" y="96" width="128" height="3" rx="1.5" ry="1.5" fill="#94a3b8"/>
-  <circle cx="818" cy="123" r="11" fill="#94a3b8"/>
-  <text x="818" y="127.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#0b1020">5</text>
-  <rect x="899" y="113" width="39" height="19" rx="9.5" ry="9.5" fill="#94a3b8" fill-opacity="0.16"/>
-  <text x="918.5" y="126" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" letter-spacing="0.6" fill="#94a3b8">DATA</text>
-  <text x="810" y="158" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#f1f5f9">Policy folder</text>
-  <text x="810" y="178" font-family="Consolas, Menlo, monospace" font-size="11" fill="#94a3b8">policy.json</text>
-  <text x="810" y="194" font-family="Consolas, Menlo, monospace" font-size="11" fill="#94a3b8">tests, reports</text>
-  <text x="810" y="210" font-family="Consolas, Menlo, monospace" font-size="11" fill="#94a3b8">Bedrock, NeMo</text>
-  <path d="M 210 158.0 L 232 158.0" fill="none" stroke="#64748b" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow)"/>
-  <path d="M 396 158.0 L 418 158.0" fill="none" stroke="#64748b" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow)"/>
-  <path d="M 582 158.0 L 604 158.0" fill="none" stroke="#64748b" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow)"/>
-  <path d="M 768 158.0 L 790 158.0" fill="none" stroke="#64748b" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow)"/>
-  <text x="40" y="262" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" letter-spacing="1.2" fill="#94a3b8">EVERY CONTROL ENDS IN ONE TIER</text>
-  <rect x="40" y="276" width="288" height="64" rx="12" ry="12" fill="#131c3a" stroke="#34d399" stroke-opacity="0.65" stroke-width="1.4"/>
-  <circle cx="62" cy="298" r="6" fill="#34d399"/>
-  <text x="78" y="303" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#f1f5f9">grounded</text>
-  <text x="56" y="325" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#94a3b8">vendor quote found, judged SUPPORTED</text>
-  <rect x="352" y="276" width="288" height="64" rx="12" ry="12" fill="#131c3a" stroke="#fbbf24" stroke-opacity="0.65" stroke-width="1.4"/>
-  <circle cx="374" cy="298" r="6" fill="#fbbf24"/>
-  <text x="390" y="303" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#f1f5f9">catalog-default</text>
-  <text x="368" y="325" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#94a3b8">opinionated baseline, not vendor-backed</text>
-  <rect x="664" y="276" width="288" height="64" rx="12" ry="12" fill="#131c3a" stroke="#94a3b8" stroke-opacity="0.65" stroke-width="1.4"/>
-  <circle cx="686" cy="298" r="6" fill="#94a3b8"/>
-  <text x="702" y="303" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#f1f5f9">excluded</text>
-  <text x="680" y="325" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#94a3b8">not applicable here, reason recorded</text>
-  <circle cx="45" cy="404" r="5" fill="#94a3b8"/>
-  <text x="56" y="408" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#94a3b8">data</text>
-  <circle cx="101" cy="404" r="5" fill="#22d3ee"/>
-  <text x="112" y="408" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#94a3b8">script</text>
-  <circle cx="171" cy="404" r="5" fill="#fbbf24"/>
-  <text x="182" y="408" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#94a3b8">cloud llm</text>
-  <circle cx="262" cy="404" r="5" fill="#34d399"/>
-  <text x="273" y="408" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#94a3b8">script + llm</text>
-  <text x="379" y="408" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#94a3b8">model setting names (for example JUDGE_MODEL) are shown on each LLM step</text>
+  <rect x="0" y="0" width="1000" height="640" fill="#ffffff"/>
+  <text x="32" y="44" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#0f172a">How the repository works</text>
+  <text x="32" y="70" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="15" fill="#334155">One build step, two tools, one shared Verify stage, all run by docker-agent on Ollama cloud models.</text>
+  <rect x="16" y="92" width="968" height="148" rx="14" ry="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="32" y="116" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" letter-spacing="1" fill="#334155">BUILD   (no model calls)</text>
+  <rect x="40" y="124" width="200" height="104" rx="12" ry="12" fill="#ffffff" stroke="#475569" stroke-width="2"/>
+  <path d="M 52 125 H 228 Q 239 125 239 136 V 154 H 41 V 136 Q 41 125 52 125 Z" fill="#e2e8f0"/>
+  <text x="52" y="145" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" letter-spacing="0.8" fill="#475569">DATA</text>
+  <text x="52" y="178" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#0f172a">Templates</text>
+  <text x="52" y="200" font-family="Consolas, Menlo, monospace" font-size="13" fill="#334155">templates/</text>
+  <text x="52" y="218" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#334155">scopes and seeds</text>
+  <rect x="276" y="124" width="200" height="104" rx="12" ry="12" fill="#ffffff" stroke="#1d4ed8" stroke-width="2"/>
+  <path d="M 288 125 H 464 Q 475 125 475 136 V 154 H 277 V 136 Q 277 125 288 125 Z" fill="#dbeafe"/>
+  <text x="288" y="145" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" letter-spacing="0.8" fill="#1d4ed8">SCRIPT</text>
+  <text x="288" y="178" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#0f172a">Generate configs</text>
+  <text x="288" y="200" font-family="Consolas, Menlo, monospace" font-size="13" fill="#334155">gen-configs.py</text>
+  <rect x="512" y="124" width="200" height="104" rx="12" ry="12" fill="#ffffff" stroke="#475569" stroke-width="2"/>
+  <path d="M 524 125 H 700 Q 711 125 711 136 V 154 H 513 V 136 Q 513 125 524 125 Z" fill="#e2e8f0"/>
+  <text x="524" y="145" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" letter-spacing="0.8" fill="#475569">DATA</text>
+  <text x="524" y="178" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#0f172a">Agent configs</text>
+  <text x="524" y="200" font-family="Consolas, Menlo, monospace" font-size="13" fill="#334155">agents/*.yaml</text>
+  <text x="524" y="218" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#334155">run by docker-agent</text>
+  <path d="M 243.0 176.0 C 258.0 176.0, 258.0 176.0, 272.0 176.0" fill="none" stroke="#475569" stroke-width="2.2" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M 479.0 176.0 C 494.0 176.0, 494.0 176.0, 508.0 176.0" fill="none" stroke="#475569" stroke-width="2.2" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <rect x="16" y="256" width="968" height="148" rx="14" ry="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="32" y="280" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" letter-spacing="1" fill="#334155">GUARDRAIL POLICY GENERATOR</text>
+  <rect x="16" y="420" width="968" height="148" rx="14" ry="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="32" y="444" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" letter-spacing="1" fill="#334155">DOCS BRIEFING   (Prisma Cloud / Cortex Cloud)</text>
+  <rect x="40" y="288" width="200" height="104" rx="12" ry="12" fill="#ffffff" stroke="#475569" stroke-width="2"/>
+  <path d="M 52 289 H 228 Q 239 289 239 300 V 318 H 41 V 300 Q 41 289 52 289 Z" fill="#e2e8f0"/>
+  <text x="52" y="309" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" letter-spacing="0.8" fill="#475569">DATA</text>
+  <text x="52" y="342" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#0f172a">App profile</text>
+  <text x="52" y="364" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#334155">sanitized JSON</text>
+  <text x="52" y="382" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#334155">+ 70-control catalog</text>
+  <rect x="276" y="288" width="200" height="104" rx="12" ry="12" fill="#ffffff" stroke="#1d4ed8" stroke-width="2"/>
+  <path d="M 288 289 H 464 Q 475 289 475 300 V 318 H 277 V 300 Q 277 289 288 289 Z" fill="#dbeafe"/>
+  <text x="288" y="309" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" letter-spacing="0.8" fill="#1d4ed8">SCRIPT</text>
+  <text x="288" y="342" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#0f172a">guardrail.py</text>
+  <text x="288" y="364" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#334155">select, propose, check</text>
+  <rect x="760" y="288" width="200" height="104" rx="12" ry="12" fill="#ffffff" stroke="#475569" stroke-width="2"/>
+  <path d="M 772 289 H 948 Q 959 289 959 300 V 318 H 761 V 300 Q 761 289 772 289 Z" fill="#e2e8f0"/>
+  <text x="772" y="309" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" letter-spacing="0.8" fill="#475569">DATA</text>
+  <text x="772" y="342" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#0f172a">Policy folder</text>
+  <text x="772" y="364" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#334155">policy.json, tests</text>
+  <text x="772" y="382" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#334155">Bedrock, NeMo drafts</text>
+  <rect x="40" y="452" width="200" height="104" rx="12" ry="12" fill="#ffffff" stroke="#475569" stroke-width="2"/>
+  <path d="M 52 453 H 228 Q 239 453 239 464 V 482 H 41 V 464 Q 41 453 52 453 Z" fill="#e2e8f0"/>
+  <text x="52" y="473" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" letter-spacing="0.8" fill="#475569">DATA</text>
+  <text x="52" y="506" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#0f172a">Question</text>
+  <text x="52" y="528" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#334155">+ official start pages</text>
+  <rect x="276" y="452" width="200" height="104" rx="12" ry="12" fill="#ffffff" stroke="#1d4ed8" stroke-width="2"/>
+  <path d="M 288 453 H 464 Q 475 453 475 464 V 482 H 277 V 464 Q 277 453 288 453 Z" fill="#dbeafe"/>
+  <text x="288" y="473" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" letter-spacing="0.8" fill="#1d4ed8">SCRIPT</text>
+  <text x="288" y="506" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#0f172a">run.sh</text>
+  <text x="288" y="528" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#334155">research, write, check</text>
+  <rect x="760" y="452" width="200" height="104" rx="12" ry="12" fill="#ffffff" stroke="#475569" stroke-width="2"/>
+  <path d="M 772 453 H 948 Q 959 453 959 464 V 482 H 761 V 464 Q 761 453 772 453 Z" fill="#e2e8f0"/>
+  <text x="772" y="473" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" letter-spacing="0.8" fill="#475569">DATA</text>
+  <text x="772" y="506" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#0f172a">Briefing</text>
+  <text x="772" y="528" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#334155">cited Markdown</text>
+  <text x="772" y="546" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#334155">+ evidence.json</text>
+  <rect x="512" y="288" width="212" height="268" rx="12" ry="12" fill="#ffffff" stroke="#047857" stroke-width="2"/>
+  <path d="M 524 289 H 712 Q 723 289 723 300 V 318 H 513 V 300 Q 513 289 524 289 Z" fill="#d1fae5"/>
+  <text x="524" y="309" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" letter-spacing="0.8" fill="#047857">SCRIPT + LLM</text>
+  <text x="524" y="342" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#0f172a">Verify</text>
+  <text x="524" y="364" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#334155">quote found on the</text>
+  <text x="524" y="382" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#334155">fetched vendor page,</text>
+  <text x="524" y="400" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#334155">then judged by</text>
+  <text x="524" y="418" font-family="Consolas, Menlo, monospace" font-size="13" fill="#334155">JUDGE_MODEL</text>
+  <text x="524" y="436" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#334155">(other model family)</text>
+  <path d="M 243.0 340.0 C 258.0 340.0, 258.0 340.0, 272.0 340.0" fill="none" stroke="#475569" stroke-width="2.2" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M 479.0 340.0 C 494.0 340.0, 494.0 422.0, 508.0 422.0" fill="none" stroke="#475569" stroke-width="2.2" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M 727.0 422.0 C 742.0 422.0, 742.0 340.0, 756.0 340.0" fill="none" stroke="#475569" stroke-width="2.2" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M 243.0 504.0 C 258.0 504.0, 258.0 504.0, 272.0 504.0" fill="none" stroke="#475569" stroke-width="2.2" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M 479.0 504.0 C 494.0 504.0, 494.0 422.0, 508.0 422.0" fill="none" stroke="#475569" stroke-width="2.2" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M 727.0 422.0 C 742.0 422.0, 742.0 504.0, 756.0 504.0" fill="none" stroke="#475569" stroke-width="2.2" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M 612.0 231.0 L 618.0 284.0" fill="none" stroke="#475569" stroke-width="2.2" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <rect x="32" y="605" width="50" height="21" rx="6" ry="6" fill="#e2e8f0" stroke="#475569" stroke-width="1.5"/>
+  <text x="57.0" y="620" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#475569">DATA</text>
+  <rect x="92" y="605" width="66" height="21" rx="6" ry="6" fill="#dbeafe" stroke="#1d4ed8" stroke-width="1.5"/>
+  <text x="125.0" y="620" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#1d4ed8">SCRIPT</text>
+  <rect x="168" y="605" width="90" height="21" rx="6" ry="6" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+  <text x="213.0" y="620" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#b45309">CLOUD LLM</text>
+  <rect x="268" y="605" width="66" height="21" rx="10.5" ry="10.5" fill="#047857"/>
+  <text x="301" y="620" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#ffffff">Verify</text>
+  <text x="346" y="620" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="13" fill="#334155">Verify = quote check on the fetched page + judge from another model family</text>
 </svg>
